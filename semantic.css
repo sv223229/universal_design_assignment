@@ -17,7 +17,7 @@ body {
     font-size: 18px;
   }
 p {
-    color: rgb(12, 123, 220);
+    color: #053158;
     font-family: sans-serif;
     line-height: 1.3em;
 }
@@ -45,19 +45,23 @@ h2 {
 h3 {
     font-size: 1.2em;
 }
- nav ul li a:link {
-    color: #C984DC;
+nav ul li a {
+    font-weight: bold;
+    font-size: 1.8em;
   }
-  
-  nav ul li a:visited {
+nav ul li a:link {
     color: #C984DC;
-  }
+}
   
-  nav ul li a:hover {
+nav ul li a:visited {
+    color: #C984DC;
+}
+  
+nav ul li a:hover {
     color: black;
     background: white;
-  }
+}
   
-  nav ul li a:active {
+nav ul li a:active {
     color: #648583;
-  }
+}
