@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=IM+Fell+Double+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -118,4 +120,9 @@ h3 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+material-symbols-outlined {
+  color: #FFD700;
+  cursor: pointer;
 }
