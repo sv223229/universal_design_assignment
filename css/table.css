@@ -126,3 +126,26 @@ material-symbols-outlined {
   color: #FFD700;
   cursor: pointer;
 }
+nav ul li a {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+nav ul li a:link {
+    color: yellow;
+}
+  
+nav ul li a:visited {
+    color: yellow;
+}
+  
+nav ul li a:hover {
+    color: black;
+    background: white;
+}
+  
+nav ul li a:active {
+    color: #648583;
+}
+    a:link {
+        color: yellow
+    }
