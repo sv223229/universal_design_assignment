@@ -73,7 +73,7 @@ footer {
 } 
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   background: Rebeccapurple;
   display: grid;
@@ -188,12 +188,21 @@ nav ul li {
 .flex_container {
   display: flex;
   justify-content: column;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 .flex_container div {
   min-width: 100px;
 }
 .inner_body_text p {
   margin-bottom: 0;
-  padding-left: 27rem;
+  /* padding-left: 27rem; */
+}
+#quote {
+  font-style: italic;
+  font-size: 3rem;
+  color: yellow;
+}
+cite {
+  font-size: 2rem;
+  color: yellow;
 }
