@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=IM+Fell+Double+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 *,*:before,*:after {
   box-sizing: border-box;
   padding: 0;
@@ -18,18 +20,13 @@
 
 header {
   display: flex;
-  
+  justify-content: center;
   gap: 1rem;             
   padding: 1.5em;
   border: 1px black solid;
-  text-align: left;       
+  font-family: 'Cinzel';
 }
-.header_text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.2rem; /* space between h1 and h2 */
-}
+
 
 body {
   background-color: #080808;
@@ -40,12 +37,11 @@ body {
   background-size: cover; 
   background-color: #080808;
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: 'Im Fell Double Pica', 'Cinzel', serif;
   
 }
 
 h1,h2,h3,h4,a {
-  font-family: serif;
   font-weight: normal;
   padding: 0.6em;
   color: white;
@@ -59,15 +55,17 @@ p {
   margin-bottom: 1.8em;
   line-height: 1.8em;
   color: white;
+  font-family: 'Im Fell Double Pica';
 }
 
 header,nav,main,aside,footer {
   padding: 1.5em;
-  border: 1px black solid;
+  border: 1px white solid;
+  font-size: 20px;
 }
 
 header {
-  text-align: left;
+  text-align: center;
 }
 
 footer {
@@ -75,17 +73,17 @@ footer {
 } 
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   background: Rebeccapurple;
   display: grid;
   width: 100vw;
   height: 100vh;
   grid-template-columns:
-   0fr       2fr       0.5fr;
+   1fr       2fr       1fr;
   grid-template-areas:
-  "heady     heady     aside2"
-  "navvy     navvy     aside2"
+  "heady     heady     heady"
+  "navvy     navvy     navvy"
   "aside1    mainy     aside2"
   "aside1    mainy     aside2"
   "aside1    mainy     aside2"
@@ -96,12 +94,15 @@ header {grid-area: heady; background:rgba(34, 35, 48, 0.93);}
 nav {grid-area: navvy; background: linear-gradient(
     90deg,
     var(--gradient-showcase-header-left) 0%,
-    var(--color-showcase-header) 90%
+    var(--color-showcase-header) 100%
   );}
 main {grid-area: mainy; background: rgba(34, 35, 48, 0.93); max-height: 100%;}
-#aside1 {grid-area: aside1; background: mintcream;}
+#aside1 {grid-area: aside1; background-color: rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(20px);}
+
 #aside2 {grid-area: aside2; background-color: rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(20px);}
+
 footer {grid-area: footy; background: lightsalmon;}
 
 nav ul {
