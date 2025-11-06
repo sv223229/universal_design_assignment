@@ -15,6 +15,22 @@
   width: 1px;
 
 }
+.skip-link {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(-100%);
+}
+
+.skip-link {
+  transition: transform 0.3s;
+}
 
 header {
   display: flex;
@@ -39,7 +55,7 @@ body {
   background-position: center center;
   background-size: cover; 
   background-color: #080808;
-  font-size: 15px;
+  
   font-family: sans-serif;
   
 }
@@ -195,4 +211,8 @@ nav ul li {
 .inner_body_text p {
   margin-bottom: 0;
   padding-left: 27rem;
+}
+#aside_links {
+  list-style-type: none;
+  font-size: 1.5rem;
 }
