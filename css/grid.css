@@ -91,7 +91,7 @@ footer {
 } 
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   background: Rebeccapurple;
   display: grid;
@@ -210,7 +210,7 @@ nav ul li {
 }
 .inner_body_text p {
   margin-bottom: 0;
-  padding-left: 27rem;
+ 
 }
 #aside_links {
   list-style-type: none;
